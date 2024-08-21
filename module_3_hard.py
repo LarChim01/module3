@@ -16,7 +16,7 @@ def calculate_structure_sum(*arg):
         elif isinstance(i, (int ,float)): #если  число прибавляем его к сумме
             sum += i
             return
-        elif isinstance(i, str): #если строка при
+        elif isinstance(i, str): #если строка прибавляем её длину
             sum += len(i)
             return
         elif isinstance(i, tuple):
